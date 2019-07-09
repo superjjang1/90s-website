@@ -1,0 +1,53 @@
+html {
+  font-size: 12px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+    
+    p, li {
+      font-size: 16px;    
+      line-height: 2;
+      letter-spacing: 1px;
+    }
+}  
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;    
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #000000;
+}
+body {
+  width: 720px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  color: #ffffff;
+  background-image: url("https://i.imgur.com/jmnyF7k.jpg");
+}
+a, a:active, a:link, a:visted {
+  display:inline-block;
+}
+a:hover {
+  background-color:plum
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #ffffff;
+  text-shadow: 3px 3px 1px black;
+}
+footer {
+  font-size: 4px;
+}
+}
